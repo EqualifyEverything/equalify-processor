@@ -1,0 +1,272 @@
+{
+    "url": "https://another.org/",
+    "messages": [
+        {
+            "message": "Color Contrast Rule: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds. Elements must meet minimum color contrast ratio thresholds. More information: https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axe-puppeteer",
+            "relatedTagIds": [
+                1,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "relatedNodeIds": [
+                1,
+                2,
+                3
+            ],
+            "type": "violation"
+        },
+        {
+            "message": "Element's background color could not be determined because element contains an image node",
+            "relatedTagIds": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "relatedNodeIds": [
+                1,
+                2,
+                3
+            ],
+            "type": "violation"
+        },
+        {
+            "message": "Landmark Unique Rule: Landmarks should have a unique role or role/label/title (i.e. accessible name) combination. Ensures landmarks are unique. More information: https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=axe-puppeteer",
+            "relatedTagIds": [
+                1,
+                11,
+                12
+            ],
+            "relatedNodeIds": [
+                4
+            ],
+            "type": "violation"
+        },
+        {
+            "message": "The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable",
+            "relatedTagIds": [
+                2,
+                11,
+                12
+            ],
+            "relatedNodeIds": [
+                4
+            ],
+            "type": "violation"
+        },
+        {
+            "message": "Link In Text Block Rule: Ensure links are distinguished from surrounding text in a way that does not rely on color. Links must be distinguishable without relying on color. More information: https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axe-puppeteer",
+            "relatedTagIds": [
+                1,
+                3,
+                13,
+                14,
+                6,
+                15,
+                8,
+                16
+            ],
+            "relatedNodeIds": [
+                5,
+                6
+            ],
+            "type": "violation"
+        },
+        {
+            "message": "The link has insufficient color contrast of 2.96:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3858e9, surrounding text: #1e1e1e)",
+            "relatedTagIds": [
+                2,
+                3,
+                13,
+                14,
+                6,
+                15,
+                8,
+                16
+            ],
+            "relatedNodeIds": [
+                5,
+                6
+            ],
+            "type": "violation"
+        },
+        {
+            "message": "The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "relatedTagIds": [
+                2,
+                3,
+                13,
+                14,
+                6,
+                15,
+                8,
+                16
+            ],
+            "relatedNodeIds": [
+                5,
+                6
+            ],
+            "type": "violation"
+        },
+        {
+            "message": "Color Contrast Rule: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds. Elements must meet minimum color contrast ratio thresholds. More information: https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axe-puppeteer",
+            "relatedTagIds": [
+                1,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "relatedNodeIds": [
+                1,
+                2,
+                3
+            ],
+            "type": "error"
+        },
+        {
+            "message": "Element's background color could not be determined because element contains an image node",
+            "relatedTagIds": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "relatedNodeIds": [
+                1,
+                2,
+                3
+            ],
+            "type": "error"
+        }
+    ],
+    "tags": [
+        {
+            "tagId": 1,
+            "tag": "axe-core Rule"
+        },
+        {
+            "tagId": 2,
+            "tag": "axe-core Message"
+        },
+        {
+            "tagId": 3,
+            "tag": "cat.color"
+        },
+        {
+            "tagId": 4,
+            "tag": "wcag2aa"
+        },
+        {
+            "tagId": 5,
+            "tag": "wcag143"
+        },
+        {
+            "tagId": 6,
+            "tag": "TTv5"
+        },
+        {
+            "tagId": 7,
+            "tag": "TT13.c"
+        },
+        {
+            "tagId": 8,
+            "tag": "EN-301-549"
+        },
+        {
+            "tagId": 9,
+            "tag": "EN-9.1.4.3"
+        },
+        {
+            "tagId": 10,
+            "tag": "ACT"
+        },
+        {
+            "tagId": 11,
+            "tag": "cat.semantics"
+        },
+        {
+            "tagId": 12,
+            "tag": "best-practice"
+        },
+        {
+            "tagId": 13,
+            "tag": "wcag2a"
+        },
+        {
+            "tagId": 14,
+            "tag": "wcag141"
+        },
+        {
+            "tagId": 15,
+            "tag": "TT13.a"
+        },
+        {
+            "tagId": 16,
+            "tag": "EN-9.1.4.1"
+        }
+    ],
+    "nodes": [
+        {
+            "nodeId": 1,
+            "html": "<h2 class=\"wp-block-heading has-text-align-right has-pomegrade-3-color has-text-color has-heading-cta-font-size\">Dream it, build&nbsp;it</h2>",
+            "targets": [
+                ".has-text-align-right"
+            ]
+        },
+        {
+            "nodeId": 2,
+            "html": "<p class=\"is-style-short-text\">That’s the beauty of using blocks. See exactly how your site will look in real time, even as you add, edit, and rearrange your content. Create any kind of custom site with intuitive editing, flexible design tools, and powerful features to manage it all.</p>",
+            "targets": [
+                ".wp-container-core-group-is-layout-6 > .is-style-short-text"
+            ]
+        },
+        {
+            "nodeId": 3,
+            "html": "<a href=\"/gutenberg/\">Explore the WordPress Editor <span aria-hidden=\"true\" class=\"wp-exclude-emoji\">↗</span></a>",
+            "targets": [
+                "p:nth-child(3) > a[href$=\"gutenberg/\"]"
+            ]
+        },
+        {
+            "nodeId": 4,
+            "html": "<nav class=\"is-responsive global-header__navigation wp-block-navigation is-horizontal is-layout-flex wp-block-navigation-is-layout-flex\" aria-label=\"\" data-wp-interactive=\"core/navigation\" data-wp-context=\"{&quot;overlayOpenedBy&quot;:[],&quot;type&quot;:&quot;overlay&quot;,&quot;roleAttribute&quot;:&quot;&quot;,&quot;ariaLabel&quot;:&quot;Menu&quot;}\">",
+            "targets": [
+                ".is-horizontal"
+            ]
+        },
+        {
+            "nodeId": 5,
+            "html": "<a href=\"https://wordpress.org/news/category/development/\" class=\"wp-block-wporg-latest-news__category\">Development</a>",
+            "targets": [
+                "li:nth-child(1) > .wp-block-wporg-latest-news__details > .wp-block-wporg-latest-news__category"
+            ]
+        },
+        {
+            "nodeId": 6,
+            "html": "<a href=\"https://wordpress.org/news/category/events/\" class=\"wp-block-wporg-latest-news__category\">Events</a>",
+            "targets": [
+                "li:nth-child(2) > .wp-block-wporg-latest-news__details > .wp-block-wporg-latest-news__category"
+            ]
+        }
+    ]
+}
