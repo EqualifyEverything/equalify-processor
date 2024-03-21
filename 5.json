@@ -1,0 +1,25 @@
+{
+    "url": "https://new.org/",
+    "messages": [
+        {
+            "message": "peepee",
+            "relatedTagIds": [
+                1,
+                2
+            ],
+            "relatedNodeIds": [],
+            "type": "violation"
+        }
+    ],
+    "tags": [
+        {
+            "tagId": 1,
+            "tag": "toofle"
+        },
+        {
+            "tagId": 2,
+            "tag": "goofey"
+        }
+    ],
+    "nodes": []
+}

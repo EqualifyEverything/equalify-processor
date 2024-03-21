@@ -1,0 +1,50 @@
+{
+    "url": "https://new.org/",
+    "messages": [
+        {
+            "message": "peepee",
+            "relatedTagIds": [
+                1,
+                2
+            ],
+            "relatedNodeIds": [
+                1
+            ],
+            "type": "violation"
+        },
+        {
+            "message": "peepee",
+            "relatedTagIds": [
+                1,
+                2
+            ],
+            "relatedNodeIds": [
+                1,
+                2
+            ],
+            "type": "error"
+        }
+    ],
+    "tags": [
+        {
+            "tagId": 1,
+            "tag": "toofle"
+        },
+        {
+            "tagId": 2,
+            "tag": "goofey"
+        }
+    ],
+    "nodes": [
+        {
+            "nodeId": 1,
+            "html": "<p>poo</p>",
+            "targets": []
+        },
+        {
+            "nodeId": 2,
+            "html": "<h1>hello</h1>",
+            "targets": []
+        }
+    ]
+}
